@@ -8,7 +8,7 @@
             <input type="email" placeholder="Email" name="email" formControlName="email" />
             <input type="password" placeholder="Password" name="password" formControlName="password" />
             <a routerLink="../forgot-Password" href="#">Forgot your password?</a>
-            <button>Sign In</button>
+            <button>Sign In <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span></button>
             <a routerLink="../registration" href="#">Create your account</a>
         </form>
     </div>

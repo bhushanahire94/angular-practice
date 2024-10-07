@@ -6,6 +6,7 @@ export class ConstantServiceService {
     Master: {
       UserRegistration: 'api/master/country',
     }
-    
   };
+  public static ADMIN = 'Admin';
+  
 }
