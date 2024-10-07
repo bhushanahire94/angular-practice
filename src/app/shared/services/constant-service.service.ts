@@ -8,5 +8,5 @@ export class ConstantServiceService {
     }
   };
   public static ADMIN = 'Admin';
-  
+
 }
