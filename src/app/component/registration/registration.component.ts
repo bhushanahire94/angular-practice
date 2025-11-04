@@ -71,15 +71,15 @@ export class RegistrationComponent implements OnInit {
       password : this.form.value.password
     }
    
-    this.registrationService.post(request).subscribe({
-      next: (res) => {
-        if(res)
-        this.submitted = true;
-        this.message = 'Saved successfully.'
-        this.router.navigate(['login']);
-      },
-      error: (e) => console.error(e)
-    });;
+    // this.registrationService.post(request).subscribe({
+    //   next: (res) => {
+    //     if(res)
+    //     this.submitted = true;
+    //     this.message = 'Saved successfully.'
+    //     this.router.navigate(['login']);
+    //   },
+    //   error: (e) => console.error(e)
+    // });;
   }
 
   onReset(): void {
